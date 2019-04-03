@@ -50,10 +50,14 @@ rawtheta = t1deg + t2deg + t3deg;
 
 trans
 
-xe
+fprintf('%f = long form x displacement \n',xe);
 
-ye
+fprintf('%f = x displacement from transform \n',trans(1,4));
 
-transtheta
+fprintf('%f = long form y displacement \n',ye);
 
-rawtheta
+fprintf('%f = y displacement from transform \n',trans(2,4));
+
+fprintf('%f = long form theta displacement \n',rawtheta);
+
+fprintf('%f = theta displacement from transform \n',transtheta);
